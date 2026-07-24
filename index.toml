@@ -2871,8 +2871,8 @@ hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
 metafile = true
 
 [[files]]
-file = "mods/mwxkhmycore-2.5.0.jar"
-hash = "8dce0b59a0f9ca8c7aedb99a075a2f6df68aaa2ab08a848b2e9dc73bcc3cd7e4"
+file = "mods/mwxkhmycore-2.5.1.jar"
+hash = "cd115cb2ae2788960a84a19b657f397c87227ef1452c4134b9d1778a51fd66cc"
 
 [[files]]
 file = "mods/neruina.pw.toml"
@@ -3325,6 +3325,10 @@ hash = "8195c5831a668a55faf9dfab2ea1031c4ff7499c97d850695bfaa6ba27639a10"
 [[files]]
 file = "resourcepacks/AoC-Rus/assets/mwxkhmycore/textures/entity/doll/cybergoosejr_1.png"
 hash = "493433ceba0654fa69d9aff82492702de1ba90cfd3b8e24b5e4b0416c0ef446d"
+
+[[files]]
+file = "resourcepacks/AoC-Rus/assets/mwxkhmycore/textures/entity/doll/flortiql.png"
+hash = "086b3e35306b4f40f57b37d1b128e0af979037a459c67828b232f698df12ff46"
 
 [[files]]
 file = "resourcepacks/AoC-Rus/assets/mwxkhmycore/textures/entity/doll/mwxkhmy.png"
