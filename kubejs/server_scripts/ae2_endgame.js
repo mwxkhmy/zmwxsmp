@@ -104,8 +104,8 @@ ServerEvents.recipes(event => {
         P: 'create:precision_mechanism'
     });
 
+    // Кабельную (парт) версию не трогаем: конверсия блок↔парт 1:1, дыры не даёт
     event.remove({ output: 'ae2:energy_acceptor' });
-    event.remove({ output: 'ae2:cable_energy_acceptor' });
     event.recipes.create.mechanical_crafting('ae2:energy_acceptor', [
         'SKS',
         'FBF',
@@ -148,7 +148,8 @@ ServerEvents.recipes(event => {
 
     // ── Т3. Первая сеть: резина + прочные листы ──
 
-    event.remove({ output: 'ae2:fluix_glass_cable' });
+    // Точечно по id: сносим только крафт, «отмывку» цветного кабеля водой оставляем
+    event.remove({ id: 'ae2:network/cables/glass_fluix' });
     event.shaped(Item.of('ae2:fluix_glass_cable', 2), [
         'RFR',
         'FXF',
@@ -180,6 +181,15 @@ ServerEvents.recipes(event => {
         G: '#c:glass_blocks',
         R: 'rubberworks:rubber',
         L: 'ae2:calculation_processor'
+    });
+
+    // У AE2 на каждую ячейку ДВА рецепта: «корпус + компонент» и прямой шейпед
+    // (кварцевое стекло + редстоун + железо/медь) — прямой обходит наши дорогие
+    // корпуса, поэтому сносим его по id на всех ярусах. Разборку и апгрейды
+    // ярусов не трогаем: корпус там уже оплачен.
+    ['1k', '4k', '16k', '64k', '256k'].forEach(tier => {
+        event.remove({ id: 'ae2:network/cells/item_storage_cell_' + tier });
+        event.remove({ id: 'ae2:network/cells/fluid_storage_cell_' + tier });
     });
 
     // Компонент 1k: 3 круга линии на заряженном кварце + флюисовая пыль
@@ -222,8 +232,8 @@ ServerEvents.recipes(event => {
         A: 'ae2:annihilation_core'
     });
 
+    // Кабельную (парт) версию не трогаем — см. energy_acceptor
     event.remove({ output: 'ae2:pattern_provider' });
-    event.remove({ output: 'ae2:cable_pattern_provider' });
     event.recipes.create.mechanical_crafting('ae2:pattern_provider', [
         'SES',
         'PBP',
@@ -280,8 +290,10 @@ ServerEvents.recipes(event => {
     // ── Applied Create: stress-платы и процессоры без ExtendedAE/Inscriber ──
     // Их родные рецепты жили в Inscriber (выпилен) и станках ExtendedAE (выпилен целиком),
     // поэтому даём Create-пути с теми же ингредиентами, что в оригинале.
+    // Вход — ЛИСТ латуни, не слиток: слиток под прессом уже занят родным
+    // рецептом Create (латунный лист), два рецепта на один вход конфликтуют
     event.recipes.create.pressing('appliedcreate:stress_circuit_board', 'create:andesite_alloy');
-    event.recipes.create.pressing('appliedcreate:advanced_stress_circuit_board', 'create:brass_ingot');
+    event.recipes.create.pressing('appliedcreate:advanced_stress_circuit_board', 'create:brass_sheet');
 
     SA(['appliedcreate:stress_processor'], 'ae2:printed_silicon', [
         deploy('ae2:printed_silicon', 'create:cinder_flour'),

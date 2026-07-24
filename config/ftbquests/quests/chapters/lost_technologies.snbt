@@ -31,7 +31,8 @@
 			subtitle: "Начало любой сети — кварц силы. Ищи в глубинах."
 			tasks: [{
 				id: "AE20AC5700000102"
-				item: { count: 8, id: "ae2:certus_quartz_crystal" }
+				count: 8L
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
 				type: "item"
 			}]
 			title: "Кварцевая лихорадка"
@@ -44,7 +45,8 @@
 			subtitle: "Дробильные колёса помнят, как обращаться с кристаллами."
 			tasks: [{
 				id: "AE20AC5700000103"
-				item: { count: 16, id: "ae2:certus_quartz_dust" }
+				count: 16L
+				item: { count: 1, id: "ae2:certus_quartz_dust" }
 				type: "item"
 			}]
 			title: "В пыль"
@@ -57,7 +59,8 @@
 			subtitle: "Только супернагретая чаша выплавит из пыли чистый кремний."
 			tasks: [{
 				id: "AE20AC5700000104"
-				item: { count: 8, id: "ae2:silicon" }
+				count: 8L
+				item: { count: 1, id: "ae2:silicon" }
 				type: "item"
 			}]
 			title: "Кремниевый век"
@@ -70,7 +73,8 @@
 			subtitle: "Пресс-формы древних падают с неба. Ищи метеориты."
 			tasks: [{
 				id: "AE20AC5700000105"
-				item: { count: 4, id: "ae2:printed_silicon" }
+				count: 4L
+				item: { count: 1, id: "ae2:printed_silicon" }
 				type: "item"
 			}]
 			title: "Печать прошлого"
@@ -108,7 +112,8 @@
 			subtitle: "Первая мысль машины — простое «да» или «нет»."
 			tasks: [{
 				id: "AE20AC5700000107"
-				item: { count: 4, id: "ae2:logic_processor" }
+				count: 4L
+				item: { count: 1, id: "ae2:logic_processor" }
 				type: "item"
 			}]
 			title: "Логика"
@@ -121,7 +126,8 @@
 			subtitle: "Электронные лампы научили кристаллы считать."
 			tasks: [{
 				id: "AE20AC5700000108"
-				item: { count: 2, id: "ae2:calculation_processor" }
+				count: 2L
+				item: { count: 1, id: "ae2:calculation_processor" }
 				type: "item"
 			}]
 			title: "Счёт"
@@ -160,7 +166,8 @@
 			subtitle: "Заряженный кварц светится изнутри. Он почти живой."
 			tasks: [{
 				id: "AE20AC570000010B"
-				item: { count: 4, id: "ae2:charged_certus_quartz_crystal" }
+				count: 4L
+				item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
 				type: "item"
 			}]
 			title: "Живой кристалл"
@@ -173,7 +180,8 @@
 			subtitle: "Кварц, редстоун и заряд в воде рождают флюис — кровь сетей."
 			tasks: [{
 				id: "AE20AC570000010C"
-				item: { count: 8, id: "ae2:fluix_crystal" }
+				count: 8L
+				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
 			title: "Флюис"
