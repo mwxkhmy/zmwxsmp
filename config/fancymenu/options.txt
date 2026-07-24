@@ -28,7 +28,7 @@ S:custom_game_intro_skip_text = '';
 B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '/config/fancymenu/assets/icon32x32.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/icon32x32.png';
-S:custom_window_title = 'All of Create';
+S:custom_window_title = 'ZenithSMP';
 S:custom_window_icon_16 = '/config/fancymenu/assets/icon16x16.png';
 
 

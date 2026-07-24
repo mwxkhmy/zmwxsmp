@@ -1,12 +1,12 @@
-name = "Aoc Aeronautics"
-author = "quickqwek"
+name = "ZenithSMP"
+author = "mwxkhmy (base: quickqwek)"
 version = "v2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "7cadaac0b6165d03dc914c891170d8baed022ec54bab33d5f4c581f055aea0b1"
+hash = "5ef1cd8783a217d82f0587dcdadb257ed4b3ae6f70c6598f967f6ef02d9e4311"
 
 [versions]
 minecraft = "1.21.1"

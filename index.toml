@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "bce216157e255d88fbe714b222a31875c99ee26528c3a7898479a36476b79a0f"
+hash = "822284873c91369ff19b9a640b222190f4b42b9609299caef0c032c8c8e6b8e9"
 
 [[files]]
 file = "all-of-create-data.pw.toml"
@@ -977,7 +977,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "19eeb02d5598233eaba009fd829cb85bad08cfbe75edbe9dee4fd9f15b4dae6e"
+hash = "52a157d88d05152ef5ea8b3346ad70a7a924c0f3f4744e4587acab60ce9baece"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -1177,7 +1177,7 @@ hash = "1812e4107d13645dbe75364b9d4cdeff66a1eccd77e57515b75efd15e87b809a"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "9a73054d41980eae25b438a834107754404ecb2734b88f76930662d547fd0177"
+hash = "cf3dacb97eab482e1d9251e7e65a8848205b2c9a157ccc91f039fb19af69fffa"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/create.snbt"
@@ -1508,30 +1508,6 @@ file = "config/paxi/datapacks/WrencheablePlanes2.0.zip"
 hash = "be6d7e59b914f9d669f9be2ffcefc0e7fc75854e42e755882273ada86deec970"
 
 [[files]]
-file = "config/paxi/datapacks/aoc-fixes/data/create_fantasizing/recipe/sequenced_assembly/alternative_chromatic_compound.json"
-hash = "fae5a99e939d45f2b31dd3106fc5d625f1c69a993dc427cb5714f454f7c7c7e9"
-
-[[files]]
-file = "config/paxi/datapacks/aoc-fixes/data/create_fantasizing/recipe/sequenced_assembly/compact_hydraulic_engine.json"
-hash = "067c35c755da0f36fb130c8d23020589bde57666b8d0dc4b0be2d4f8e1427c65"
-
-[[files]]
-file = "config/paxi/datapacks/aoc-fixes/data/create_fantasizing/recipe/sequenced_assembly/heart_of_the_sea_copy.json"
-hash = "ecaecf793f7a9277b2a36db936fb48d7df70a6017cfb9fe459034def8dd7a488"
-
-[[files]]
-file = "config/paxi/datapacks/aoc-fixes/data/createdieselgenerators/tags/worldgen/biome/oil_biomes.json"
-hash = "da33581c97a8ed5bda111e50a5f40a8dc991514cabb9d13b441449784b083f59"
-
-[[files]]
-file = "config/paxi/datapacks/aoc-fixes/data/totemfactory/recipe/totem/totem_head.json"
-hash = "cae5be0539cb5be19974b3094dfa5c4dd3734b36d24d940a8d3b2a08b6c1c89b"
-
-[[files]]
-file = "config/paxi/datapacks/aoc-fixes/pack.mcmeta"
-hash = "0e7adf38a6055a8ace2989888a45981befbb1b35a1cd88d1ce8a74e09385b4e5"
-
-[[files]]
 file = "config/paxi/datapacks/aoc_aero.zip"
 hash = "4e56082e05bd911446eae4dd7ea185d841708315c239a38ee786196b4942a84f"
 
@@ -1554,6 +1530,30 @@ hash = "826e0b0338434bf635270f86f3fd385ad92e4374ca0f4f04e5fd3f24b3614bb4"
 [[files]]
 file = "config/paxi/datapacks/thingsandmisc_crushedmagma_disable.zip"
 hash = "dfe4e52403bbdca519b919f064f4b5ab96cc8744cb51f0c60fdaeaa1ec7f2d09"
+
+[[files]]
+file = "config/paxi/datapacks/zsmp-fixes/data/create_fantasizing/recipe/sequenced_assembly/alternative_chromatic_compound.json"
+hash = "fae5a99e939d45f2b31dd3106fc5d625f1c69a993dc427cb5714f454f7c7c7e9"
+
+[[files]]
+file = "config/paxi/datapacks/zsmp-fixes/data/create_fantasizing/recipe/sequenced_assembly/compact_hydraulic_engine.json"
+hash = "067c35c755da0f36fb130c8d23020589bde57666b8d0dc4b0be2d4f8e1427c65"
+
+[[files]]
+file = "config/paxi/datapacks/zsmp-fixes/data/create_fantasizing/recipe/sequenced_assembly/heart_of_the_sea_copy.json"
+hash = "ecaecf793f7a9277b2a36db936fb48d7df70a6017cfb9fe459034def8dd7a488"
+
+[[files]]
+file = "config/paxi/datapacks/zsmp-fixes/data/createdieselgenerators/tags/worldgen/biome/oil_biomes.json"
+hash = "da33581c97a8ed5bda111e50a5f40a8dc991514cabb9d13b441449784b083f59"
+
+[[files]]
+file = "config/paxi/datapacks/zsmp-fixes/data/totemfactory/recipe/totem/totem_head.json"
+hash = "cae5be0539cb5be19974b3094dfa5c4dd3734b36d24d940a8d3b2a08b6c1c89b"
+
+[[files]]
+file = "config/paxi/datapacks/zsmp-fixes/pack.mcmeta"
+hash = "235d9c227c612d180a9345f27829f48329f318acb6412a35ccef3909efade4ec"
 
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
@@ -1657,7 +1657,7 @@ hash = "16a06a73c5303deb1cfb092b2c211b4741ffad3c5adc3b32865c3c7ca0845a9a"
 
 [[files]]
 file = "config/resourcepackoverrides.json"
-hash = "7ceb3ba3a1ec2758a4b14f4265600d7bd2142e9bcc3e05c5126aa4af38d293a5"
+hash = "20b985c47ad2ddfd4f6aa279ffed9b3ba809e6955ff0c1a791c651b48008086b"
 
 [[files]]
 file = "config/ritchiesprojectilelib-server.toml"
@@ -2005,7 +2005,7 @@ hash = "7d856d3f9655abc661ac67b450a0c956bbf80323786b407301fbdca02d2c5b8b"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "a4652b0b08821e87c73ad3cddb6e9355577f9c0c12697bd66977bda5e4a28b2b"
+hash = "907ef222405fe8e6fa45caab4c71f6a062e412c76ab34285005415ec4a7b0f4c"
 
 [[files]]
 file = "create-charcoal-bulk-haunting.pw.toml"
@@ -2034,11 +2034,11 @@ metafile = true
 
 [[files]]
 file = "kubejs/server_scripts/_smoke.js"
-hash = "e3bd15ca04aa521393bd5d65bf59cff4c0fad4e3cf61b6963c11cc456d74a7c5"
+hash = "eda6b48fa86544ced552499eeb3d1deb917978d8ebe0f599c1a3ca31f363d66e"
 
 [[files]]
 file = "kubejs/server_scripts/ae2_endgame.js"
-hash = "cc9e9277dbe6069e6003a1c1fade85875b16c1b2cc90d30723f16d7623c87c26"
+hash = "c6c3e16d302c818c76c23d91431c13602dfb070ecb3e9abc2c2d6215e7ab76aa"
 
 [[files]]
 file = "mods/ae2.pw.toml"
@@ -3155,216 +3155,216 @@ hash = "d1baffd370868590fcb2785146c278df5781d20994022749c53c0f9b2bffc7fc"
 metafile = true
 
 [[files]]
-file = "resourcepacks/AoC-Rus/assets/ae2/lang/ru_ru.json"
-hash = "0b8b46baf4527439c018a84676db26d6a3e24a1f1a49478f5b2cf1db682082f3"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/appliedcreate/lang/ru_ru.json"
-hash = "d6fa4391bbba949f10c1a30ddefb3aa91e05a446969e51142e59d70a76ad146d"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/backpacked/lang/ru_ru.json"
-hash = "df3389b0c181d5c8d85ad2e838cb23c154ac2ea93a151161581c112d4b0dcb1d"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/bellsandwhistles/lang/ru_ru.json"
-hash = "afe0b9f2d062a88ce9fad889e6e3d379b8597afe385b016a8268ad1c846286cc"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/copycats/lang/ru_ru.json"
-hash = "85c9d5822d1b12162e3a9ffd7a4229b690d4ca0fe359a5febd47d9d33dbe2521"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/create_blaze_burner_fuels/lang/ru_ru.json"
-hash = "2fca05ad3f6c36e9f56b4b71e74539fab7b3f9e705726aace813b808b930b527"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/create_chocolate_fountain/lang/ru_ru.json"
-hash = "5a16bc90e797b591c6963a88f3eb5375ec5362f3229191725210e4be2a872fc7"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/create_confectionery/lang/ru_ru.json"
-hash = "e29bf68d2a63ee28ac208bd39c0aac3323d6f5fed1e8e64d5160c7fdc45e4e96"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/create_deep_dark/lang/ru_ru.json"
-hash = "cab16efa43be65ef0930a77389e88b4e95dd75e94abaf13098fb6d1014ff661a"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/create_factory/lang/ru_ru.json"
-hash = "2b663b10a8149a7fb953d55f4ee8f8befb1949e5956aea9c893d9ec7862ac3ce"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/create_integrated_farming/lang/ru_ru.json"
-hash = "ead8903b778e6e6d7f90bc1a143e23fa1564e5239271ee6db73790b25432a9f7"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/create_mob_spawners/lang/ru_ru.json"
-hash = "5bea87505e94e9592ce1d0d408e1c940f9013c984a75d4df23a7a233332af577"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/create_optical/lang/ru_ru.json"
-hash = "001e332d48a3bb968529dc24dfc73d84705ceefe20f89e70f2cdeea211a5bc2d"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/create_radar/lang/ru_ru.json"
-hash = "84ad767b484f6b755daa83e15405ac9cc3cf1407df85655616ebda543313030b"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/create_things_and_misc/lang/ru_ru.json"
-hash = "b59a0004d4b13df886e2d25d93a11b213ade3958cdfdeff14bca0aeb7149ad97"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/create_train_parts/lang/ru_ru.json"
-hash = "c807606803c26fb696624a02843cf46423d0f8d44553853c27317f7c1c237159"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/create_tweaked_controllers/lang/ru_ru.json"
-hash = "778a65f873e70099ad50ef99c830981a2bf0439668b3e4cad262759a910dffa7"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/create_vibrant_vaults/lang/ru_ru.json"
-hash = "42ae8a4994bfca0a7d4289770d36f9d17a1f4f8a840e5a7ee681ac35ca502409"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/create_winery/lang/ru_ru.json"
-hash = "a2896cd6a974af27073057c7e1eeb280371aa9bb16f069dadfc3ab864107428a"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/create_wrapped/lang/ru_ru.json"
-hash = "b58c53105ba36c4494c2e40f9537ca204f6ecb6742dfbd32b23c5ffbd1ce265d"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/createcafe/lang/ru_ru.json"
-hash = "2baa2b24a157244c5bb1cc6c5465b779ee272b46b6af6a1d8ba16bac6c2ee411"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/createcasing/lang/ru_ru.json"
-hash = "44e8e8047281e696186e91c8dc7c3f2160ca39a7d9e25700635da4790802d136"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/createdieselgenerators/lang/ru_ru.json"
-hash = "52fbf5f006384dc4e2bc60cf871e8f463db4be39463accd4e96a85c396d38a76"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/creategarnished/lang/ru_ru.json"
-hash = "b394ff2844b98edc2ad9bebe542024296bac36545e55aad67007ae4e80017140"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/createmechanicalconfection/lang/ru_ru.json"
-hash = "c91c5fcf4338b6b898a4d01e251867ec3bddf0d50c3ce2749b3c1b43badd5b4a"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/createmetalwork/lang/ru_ru.json"
-hash = "4527e4845ef9618575a714c84814efed9d92e49f9f6a5d5219836beb23a918d2"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/createornithopterglider/lang/ru_ru.json"
-hash = "928e0e345557db40fa31278b669e49fb43ec21b17b068b489cc68bd0f0e9c3f8"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/createtransmission/lang/ru_ru.json"
-hash = "bd4df863f47b01725f7fd233cb86db34c45e79facb1e3cc8f7f96bb8d775424f"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/dndecor/lang/ru_ru.json"
-hash = "0a1dfbf0e07faa51ea51219eb8d7aae4f7aed986cebec84cef4469a2abb7db62"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/farmersdelight/lang/ru_ru.json"
-hash = "63bd5e547210c1b2de510da6801bf7fd7fdf8e5de8934be8289455f6cd551041"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/ftbfiltersystem/lang/ru_ru.json"
-hash = "109f87c1d7ae443e021d263a98b8edaf752e147a2825743c7d62f40c3651b00b"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/ftblibrary/lang/ru_ru.json"
-hash = "47c9a309a4754b726b3a18b6002e32977b44d082e03922dabbff50e7266d423e"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/ftbquests/lang/ru_ru.json"
-hash = "7562517d82221898bf7d1c97982a1e6614ee84a5e02bb45a60261f617686c221"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/ftbteams/lang/ru_ru.json"
-hash = "4306986dcd7675d56d36932cf76d10adf0ab6d4f2da244b6d0877b56bd767ac1"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/gnkinetics/lang/ru_ru.json"
-hash = "0f3b530766d92078c993adb19ec828846bda5597d22a812822c9fe9d3b571546"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/handcrafted/lang/ru_ru.json"
-hash = "ec90429bdced983b73cd8135c5225751ad88c59f09e1b8b8b9b87ff60ee86245"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/i_architecture/lang/ru_ru.json"
-hash = "ff5f033fbc0bcb9b71591490059ced989b716fbd3d198eaa8508f2bedeb40186"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/idas/lang/ru_ru.json"
-hash = "8486058b414d7008d26ae23e0941951e83cc88503b90a874ed1a5f78dc352157"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/immersive_aircraft/lang/ru_ru.json"
-hash = "89506c13a52b9c716055fdeef18a50fe36cb4a6c84d98a70cf41a85e0a9495b1"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/integrated_stronghold/lang/ru_ru.json"
-hash = "fed23eb217da360773e7463f5000f15150b2595dff3ea2b5640d5834063902a5"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/jei/lang/ru_ru.json"
-hash = "70885fb60ffd31a74ee829dedd2854da424dbe799e31f62f8ade8463e484df67"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/mechanical_botany/lang/ru_ru.json"
-hash = "8195c5831a668a55faf9dfab2ea1031c4ff7499c97d850695bfaa6ba27639a10"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/mwxkhmycore/textures/entity/doll/cybergoosejr_1.png"
-hash = "493433ceba0654fa69d9aff82492702de1ba90cfd3b8e24b5e4b0416c0ef446d"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/mwxkhmycore/textures/entity/doll/flortiql.png"
-hash = "086b3e35306b4f40f57b37d1b128e0af979037a459c67828b232f698df12ff46"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/mwxkhmycore/textures/entity/doll/mwxkhmy.png"
-hash = "d1ebcef234ef3f33c1f5dd487944398e7516db4ae062fa272909739a695852b0"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/mwxkhmycore/textures/entity/doll/yasafoxx.png"
-hash = "fb7bdd2272f84f84d56510c3c135a2e598822f5e9e3b784775e94c0c8763f152"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/pipeorgans/lang/ru_ru.json"
-hash = "46da9cdab22352fffd0f3f89820764bb310068fbdd21256d2d9e4799618ee201"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/powergrid/lang/ru_ru.json"
-hash = "2fbc8ded92042a10983faa7054e527a5309b32871911e64c5bb2f6e63693f137"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/rubberworks/lang/ru_ru.json"
-hash = "37c038a96271e04bee117172a1cdc5d4a29acc51cfd12343e8461f79b2967298"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/assets/totemfactory/lang/ru_ru.json"
-hash = "e130c795d5a85b9e938c4882d11292ead86a3053ced26eae773219d0a1cc9cd4"
-
-[[files]]
-file = "resourcepacks/AoC-Rus/pack.mcmeta"
-hash = "e80d2c2139755ae338d942c513d0537c757df1ef96f3dd207dd9c7207e43ae98"
-
-[[files]]
 file = "resourcepacks/NoBushyLeaves.zip"
 hash = "fb0ac2ffd9b8d5909764b3b57b7a567b24e030b9483d1a5d71c1f0ab41e31268"
 
 [[files]]
 file = "resourcepacks/Quark Programmer Art.zip"
 hash = "428f8f4c710bcbe057b19bd3d79fbdc82a36eada9acfe064fd9ab534bf01019b"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/ae2/lang/ru_ru.json"
+hash = "0b8b46baf4527439c018a84676db26d6a3e24a1f1a49478f5b2cf1db682082f3"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/appliedcreate/lang/ru_ru.json"
+hash = "d6fa4391bbba949f10c1a30ddefb3aa91e05a446969e51142e59d70a76ad146d"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/backpacked/lang/ru_ru.json"
+hash = "df3389b0c181d5c8d85ad2e838cb23c154ac2ea93a151161581c112d4b0dcb1d"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/bellsandwhistles/lang/ru_ru.json"
+hash = "afe0b9f2d062a88ce9fad889e6e3d379b8597afe385b016a8268ad1c846286cc"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/copycats/lang/ru_ru.json"
+hash = "85c9d5822d1b12162e3a9ffd7a4229b690d4ca0fe359a5febd47d9d33dbe2521"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/create_blaze_burner_fuels/lang/ru_ru.json"
+hash = "2fca05ad3f6c36e9f56b4b71e74539fab7b3f9e705726aace813b808b930b527"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/create_chocolate_fountain/lang/ru_ru.json"
+hash = "5a16bc90e797b591c6963a88f3eb5375ec5362f3229191725210e4be2a872fc7"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/create_confectionery/lang/ru_ru.json"
+hash = "e29bf68d2a63ee28ac208bd39c0aac3323d6f5fed1e8e64d5160c7fdc45e4e96"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/create_deep_dark/lang/ru_ru.json"
+hash = "cab16efa43be65ef0930a77389e88b4e95dd75e94abaf13098fb6d1014ff661a"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/create_factory/lang/ru_ru.json"
+hash = "2b663b10a8149a7fb953d55f4ee8f8befb1949e5956aea9c893d9ec7862ac3ce"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/create_integrated_farming/lang/ru_ru.json"
+hash = "ead8903b778e6e6d7f90bc1a143e23fa1564e5239271ee6db73790b25432a9f7"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/create_mob_spawners/lang/ru_ru.json"
+hash = "5bea87505e94e9592ce1d0d408e1c940f9013c984a75d4df23a7a233332af577"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/create_optical/lang/ru_ru.json"
+hash = "001e332d48a3bb968529dc24dfc73d84705ceefe20f89e70f2cdeea211a5bc2d"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/create_radar/lang/ru_ru.json"
+hash = "84ad767b484f6b755daa83e15405ac9cc3cf1407df85655616ebda543313030b"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/create_things_and_misc/lang/ru_ru.json"
+hash = "b59a0004d4b13df886e2d25d93a11b213ade3958cdfdeff14bca0aeb7149ad97"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/create_train_parts/lang/ru_ru.json"
+hash = "c807606803c26fb696624a02843cf46423d0f8d44553853c27317f7c1c237159"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/create_tweaked_controllers/lang/ru_ru.json"
+hash = "778a65f873e70099ad50ef99c830981a2bf0439668b3e4cad262759a910dffa7"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/create_vibrant_vaults/lang/ru_ru.json"
+hash = "42ae8a4994bfca0a7d4289770d36f9d17a1f4f8a840e5a7ee681ac35ca502409"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/create_winery/lang/ru_ru.json"
+hash = "a2896cd6a974af27073057c7e1eeb280371aa9bb16f069dadfc3ab864107428a"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/create_wrapped/lang/ru_ru.json"
+hash = "b58c53105ba36c4494c2e40f9537ca204f6ecb6742dfbd32b23c5ffbd1ce265d"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/createcafe/lang/ru_ru.json"
+hash = "2baa2b24a157244c5bb1cc6c5465b779ee272b46b6af6a1d8ba16bac6c2ee411"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/createcasing/lang/ru_ru.json"
+hash = "44e8e8047281e696186e91c8dc7c3f2160ca39a7d9e25700635da4790802d136"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/createdieselgenerators/lang/ru_ru.json"
+hash = "52fbf5f006384dc4e2bc60cf871e8f463db4be39463accd4e96a85c396d38a76"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/creategarnished/lang/ru_ru.json"
+hash = "b394ff2844b98edc2ad9bebe542024296bac36545e55aad67007ae4e80017140"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/createmechanicalconfection/lang/ru_ru.json"
+hash = "c91c5fcf4338b6b898a4d01e251867ec3bddf0d50c3ce2749b3c1b43badd5b4a"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/createmetalwork/lang/ru_ru.json"
+hash = "4527e4845ef9618575a714c84814efed9d92e49f9f6a5d5219836beb23a918d2"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/createornithopterglider/lang/ru_ru.json"
+hash = "928e0e345557db40fa31278b669e49fb43ec21b17b068b489cc68bd0f0e9c3f8"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/createtransmission/lang/ru_ru.json"
+hash = "bd4df863f47b01725f7fd233cb86db34c45e79facb1e3cc8f7f96bb8d775424f"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/dndecor/lang/ru_ru.json"
+hash = "0a1dfbf0e07faa51ea51219eb8d7aae4f7aed986cebec84cef4469a2abb7db62"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/farmersdelight/lang/ru_ru.json"
+hash = "63bd5e547210c1b2de510da6801bf7fd7fdf8e5de8934be8289455f6cd551041"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/ftbfiltersystem/lang/ru_ru.json"
+hash = "109f87c1d7ae443e021d263a98b8edaf752e147a2825743c7d62f40c3651b00b"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/ftblibrary/lang/ru_ru.json"
+hash = "47c9a309a4754b726b3a18b6002e32977b44d082e03922dabbff50e7266d423e"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/ftbquests/lang/ru_ru.json"
+hash = "7562517d82221898bf7d1c97982a1e6614ee84a5e02bb45a60261f617686c221"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/ftbteams/lang/ru_ru.json"
+hash = "4306986dcd7675d56d36932cf76d10adf0ab6d4f2da244b6d0877b56bd767ac1"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/gnkinetics/lang/ru_ru.json"
+hash = "0f3b530766d92078c993adb19ec828846bda5597d22a812822c9fe9d3b571546"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/handcrafted/lang/ru_ru.json"
+hash = "ec90429bdced983b73cd8135c5225751ad88c59f09e1b8b8b9b87ff60ee86245"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/i_architecture/lang/ru_ru.json"
+hash = "ff5f033fbc0bcb9b71591490059ced989b716fbd3d198eaa8508f2bedeb40186"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/idas/lang/ru_ru.json"
+hash = "8486058b414d7008d26ae23e0941951e83cc88503b90a874ed1a5f78dc352157"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/immersive_aircraft/lang/ru_ru.json"
+hash = "89506c13a52b9c716055fdeef18a50fe36cb4a6c84d98a70cf41a85e0a9495b1"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/integrated_stronghold/lang/ru_ru.json"
+hash = "fed23eb217da360773e7463f5000f15150b2595dff3ea2b5640d5834063902a5"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/jei/lang/ru_ru.json"
+hash = "70885fb60ffd31a74ee829dedd2854da424dbe799e31f62f8ade8463e484df67"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/mechanical_botany/lang/ru_ru.json"
+hash = "8195c5831a668a55faf9dfab2ea1031c4ff7499c97d850695bfaa6ba27639a10"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/mwxkhmycore/textures/entity/doll/cybergoosejr_1.png"
+hash = "493433ceba0654fa69d9aff82492702de1ba90cfd3b8e24b5e4b0416c0ef446d"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/mwxkhmycore/textures/entity/doll/flortiql.png"
+hash = "086b3e35306b4f40f57b37d1b128e0af979037a459c67828b232f698df12ff46"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/mwxkhmycore/textures/entity/doll/mwxkhmy.png"
+hash = "d1ebcef234ef3f33c1f5dd487944398e7516db4ae062fa272909739a695852b0"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/mwxkhmycore/textures/entity/doll/yasafoxx.png"
+hash = "fb7bdd2272f84f84d56510c3c135a2e598822f5e9e3b784775e94c0c8763f152"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/pipeorgans/lang/ru_ru.json"
+hash = "46da9cdab22352fffd0f3f89820764bb310068fbdd21256d2d9e4799618ee201"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/powergrid/lang/ru_ru.json"
+hash = "2fbc8ded92042a10983faa7054e527a5309b32871911e64c5bb2f6e63693f137"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/rubberworks/lang/ru_ru.json"
+hash = "37c038a96271e04bee117172a1cdc5d4a29acc51cfd12343e8461f79b2967298"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/assets/totemfactory/lang/ru_ru.json"
+hash = "e130c795d5a85b9e938c4882d11292ead86a3053ced26eae773219d0a1cc9cd4"
+
+[[files]]
+file = "resourcepacks/ZSMP-Rus/pack.mcmeta"
+hash = "be2d00745feef926310a40cd9bc94f9dbba494670f4ce80f99f7c322db03d5c6"
 
 [[files]]
 file = "resourcepacks/all-of-create-core.pw.toml"

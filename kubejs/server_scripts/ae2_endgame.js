@@ -295,5 +295,5 @@ ServerEvents.recipes(event => {
         press('ae2:printed_silicon')
     ]).transitionalItem('ae2:printed_silicon').loops(1);
 
-    console.info('[AoC] AE2 endgame: рецепты применены (ребаланс v2, без ExtendedAE)');
+    console.info('[ZSMP] AE2 endgame: рецепты применены (ребаланс v2, без ExtendedAE)');
 });
