@@ -1,0 +1,13 @@
+name = "Applied Create"
+filename = "appliedcreate-1.21.1-1.1.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XmZgyZzj/versions/fDyVqIgs/appliedcreate-1.21.1-1.1.6.jar"
+hash-format = "sha512"
+hash = "03f20b73c17b60da6a6cac700a22cb5494f6c27dcfa5a3390f4befa601650bf2fdded92f3dad96168751281e968b4f1ef932c9e8923c57982c3413bd75950c26"
+
+[update]
+[update.modrinth]
+mod-id = "XmZgyZzj"
+version = "fDyVqIgs"

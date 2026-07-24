@@ -1,0 +1,246 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lost_technologies"
+	group: "2F8B068425AF05D4"
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "AE20AC5700000000"
+	order_index: 9
+	quest_links: [ ]
+	title: "&dУтерянные технологии"
+	quests: [
+		{
+			icon: {
+				id: "ae2:certus_quartz_crystal"
+			}
+			id: "AE20AC5700000001"
+			subtitle: "Говорят, до эпохи шестерён существовали сети, передающие материю по кристаллам..."
+			tasks: [{
+				id: "AE20AC5700000101"
+				type: "checkmark"
+			}]
+			title: "Слухи о древних сетях"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AE20AC5700000001"]
+			id: "AE20AC5700000002"
+			subtitle: "Начало любой сети — кварц силы. Ищи в глубинах."
+			tasks: [{
+				id: "AE20AC5700000102"
+				item: { count: 8, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			title: "Кварцевая лихорадка"
+			x: 1.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AE20AC5700000002"]
+			id: "AE20AC5700000003"
+			subtitle: "Дробильные колёса помнят, как обращаться с кристаллами."
+			tasks: [{
+				id: "AE20AC5700000103"
+				item: { count: 16, id: "ae2:certus_quartz_dust" }
+				type: "item"
+			}]
+			title: "В пыль"
+			x: 3.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AE20AC5700000003"]
+			id: "AE20AC5700000004"
+			subtitle: "Только супернагретая чаша выплавит из пыли чистый кремний."
+			tasks: [{
+				id: "AE20AC5700000104"
+				item: { count: 8, id: "ae2:silicon" }
+				type: "item"
+			}]
+			title: "Кремниевый век"
+			x: 5.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AE20AC5700000004"]
+			id: "AE20AC5700000005"
+			subtitle: "Пресс-формы древних падают с неба. Ищи метеориты."
+			tasks: [{
+				id: "AE20AC5700000105"
+				item: { count: 4, id: "ae2:printed_silicon" }
+				type: "item"
+			}]
+			title: "Печать прошлого"
+			x: 7.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AE20AC5700000005"]
+			id: "AE20AC5700000006"
+			subtitle: "Золото, кварц и алмаз — три языка утерянных машин."
+			tasks: [
+				{
+					id: "AE20AC5700000106"
+					item: { count: 1, id: "ae2:printed_logic_processor" }
+					type: "item"
+				}
+				{
+					id: "AE20AC5700000116"
+					item: { count: 1, id: "ae2:printed_calculation_processor" }
+					type: "item"
+				}
+				{
+					id: "AE20AC5700000126"
+					item: { count: 1, id: "ae2:printed_engineering_processor" }
+					type: "item"
+				}
+			]
+			title: "Три схемы"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AE20AC5700000006"]
+			id: "AE20AC5700000007"
+			subtitle: "Первая мысль машины — простое «да» или «нет»."
+			tasks: [{
+				id: "AE20AC5700000107"
+				item: { count: 4, id: "ae2:logic_processor" }
+				type: "item"
+			}]
+			title: "Логика"
+			x: 10.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AE20AC5700000007"]
+			id: "AE20AC5700000008"
+			subtitle: "Электронные лампы научили кристаллы считать."
+			tasks: [{
+				id: "AE20AC5700000108"
+				item: { count: 2, id: "ae2:calculation_processor" }
+				type: "item"
+			}]
+			title: "Счёт"
+			x: 12.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AE20AC5700000008"]
+			id: "AE20AC5700000009"
+			subtitle: "Точный механизм в сердце процессора. Дорогая жертва."
+			tasks: [{
+				id: "AE20AC5700000109"
+				item: { count: 1, id: "ae2:engineering_processor" }
+				type: "item"
+			}]
+			title: "Инженерия"
+			x: 12.6d
+			y: 2.5d
+		}
+		{
+			dependencies: ["AE20AC5700000009"]
+			id: "AE20AC570000000A"
+			subtitle: "Катушки New Age дают кристаллам то, чего им не хватало — ток."
+			tasks: [{
+				id: "AE20AC570000010A"
+				item: { count: 1, id: "ae2:charger" }
+				type: "item"
+			}]
+			title: "Пробуждение энергии"
+			x: 10.8d
+			y: 2.5d
+		}
+		{
+			dependencies: ["AE20AC570000000A"]
+			id: "AE20AC570000000B"
+			subtitle: "Заряженный кварц светится изнутри. Он почти живой."
+			tasks: [{
+				id: "AE20AC570000010B"
+				item: { count: 4, id: "ae2:charged_certus_quartz_crystal" }
+				type: "item"
+			}]
+			title: "Живой кристалл"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["AE20AC570000000B"]
+			id: "AE20AC570000000C"
+			subtitle: "Кварц, редстоун и заряд в воде рождают флюис — кровь сетей."
+			tasks: [{
+				id: "AE20AC570000010C"
+				item: { count: 8, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			title: "Флюис"
+			x: 7.2d
+			y: 2.5d
+		}
+		{
+			dependencies: ["AE20AC570000000C"]
+			id: "AE20AC570000000D"
+			subtitle: "Резина и кварцевое волокно — нервы, по которым потечёт материя."
+			tasks: [{
+				id: "AE20AC570000010D"
+				item: { count: 1, id: "ae2:item_storage_cell_1k" }
+				type: "item"
+			}]
+			title: "Первая ячейка"
+			x: 5.4d
+			y: 2.5d
+		}
+		{
+			dependencies: ["AE20AC570000000D"]
+			id: "AE20AC570000000E"
+			subtitle: "Экран, дисковод — и сундуки больше не нужны."
+			tasks: [
+				{
+					id: "AE20AC570000010E"
+					item: { count: 1, id: "ae2:terminal" }
+					type: "item"
+				}
+				{
+					id: "AE20AC570000011E"
+					item: { count: 1, id: "ae2:drive" }
+					type: "item"
+				}
+			]
+			title: "Первая сеть"
+			x: 3.6d
+			y: 2.5d
+		}
+		{
+			dependencies: ["AE20AC570000000E"]
+			icon: {
+				id: "ae2:controller"
+			}
+			id: "AE20AC570000000F"
+			rewards: [{
+				id: "AE20AC5700000201"
+				item: {
+					components: {
+						"mwxkhmycore:doll_owner": "mwxkhmy"
+					}
+					count: 1
+					id: "mwxkhmycore:doll"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.75d
+			subtitle: "Звезда Нижнего мира в оправе из стали и точных механизмов. Технология больше не утеряна."
+			tasks: [{
+				id: "AE20AC570000010F"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			title: "&dСердце сети"
+			x: 1.5d
+			y: 2.5d
+		}
+	]
+}

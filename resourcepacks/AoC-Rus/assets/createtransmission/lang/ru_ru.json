@@ -1,0 +1,17 @@
+{
+  "block.createtransmission.andesite_encased_transmission_chain": "Трансмиссионная цепь в андезитовом корпусе",
+  "block.createtransmission.brass_encased_transmission_chain": "Трансмиссионная цепь в латунном корпусе",
+  "block.createtransmission.transmission_chain": "Трансмиссионная цепь",
+  "createtransmission.ponder.encasing.header": "Заключение трансмиссионных цепей в корпус",
+  "createtransmission.ponder.encasing.text_1": "Трансмиссионные цепи тоже можно заключить в корпус!",
+  "createtransmission.ponder.encasing.text_2": "Гаечный ключ поможет снять корпус.",
+  "createtransmission.ponder.usage.header": "Передача вращения с помощью трансмиссионных цепей",
+  "createtransmission.ponder.usage.text_1": "Цепной привод в корпусе можно использовать для передачи вращения между ремнями.",
+  "createtransmission.ponder.usage.text_2": "Но он громоздкий...",
+  "createtransmission.ponder.usage.text_3": "В качестве альтернативы используйте трансмиссионные цепи!\nОни компактны, но работают только на ремнях.",
+  "createtransmission.ponder.usage.text_4": "Они могут передавать вращение ремням в разных положениях.",
+  "createtransmission.ponder.usage.text_5": "Горизонтально...",
+  "createtransmission.ponder.usage.text_6": "...под прямым углом...",
+  "createtransmission.ponder.usage.text_7": "...и вертикально.",
+  "creativeTab.createtransmission.main": "Create: Transmission"
+}

@@ -1,0 +1,13 @@
+name = "Aoc Aeronautics"
+author = "quickqwek"
+version = "v2.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ae4824da80b9a2d402e52225bdb0a8cbd868aae51f3ad106f9bb4b168889dfd6"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.233"

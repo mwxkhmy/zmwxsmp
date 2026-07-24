@@ -1,0 +1,14 @@
+{
+  "itemGroup.create_chocolate_fountain.base": "Create Chocolate Fountain",
+  "block.create_chocolate_fountain.chocolate_fountain": "Шоколадный фонтан",
+  "create_chocolate_fountain.ponder.chocolate_fountain.header": "Установка шоколадного фонтана",
+  "create_chocolate_fountain.ponder.chocolate_fountain.text_1": "Шоколадный фонтан можно снабжать шоколадом снизу",
+  "create_chocolate_fountain.ponder.chocolate_fountain.text_2": "Сигнал редстоуна отключает фонтан",
+  "create_chocolate_fountain.ponder.chocolate_fountain_range.header": "Использование шоколадного фонтана",
+  "create_chocolate_fountain.ponder.chocolate_fountain_range.text_1": "Радиус действия шоколадного фонтана по умолчанию — 10 блоков",
+  "create_chocolate_fountain.ponder.chocolate_fountain_range.text_2": "Игроки в этом радиусе автоматически подкармливаются шоколадом",
+  "create_chocolate_fountain.ponder.chocolate_fountain_bees.header": "Успокаивание пчёл мёдом",
+  "create_chocolate_fountain.ponder.chocolate_fountain_bees.text_1": "Шоколадный фонтан работает и с мёдом",
+  "create_chocolate_fountain.ponder.chocolate_fountain_bees.text_2": "Пчёлы рядом с шоколадным фонтаном не злятся",
+  "create_chocolate_fountain.ponder.chocolate_fountain_bees.text_3": "Уже разозлённые пчёлы успокоятся, попав в радиус действия фонтана"
+}
