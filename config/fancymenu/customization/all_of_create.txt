@@ -22,22 +22,10 @@ menu_background {
 menu_background {
   instance_identifier = 257b8626-ecac-4c5d-8703-ae7522648cb3-1778327890338
   background_type = panorama
-  show_background = false
+  show_background = true
+  panorama_name = zenith
 }
 
-menu_background {
-  instance_identifier = 96c0dc7d-7840-4add-a53b-eb01e3939524-1769526424599
-  background_type = image
-  show_background = true
-  image_path = [source:local]/config/fancymenu/assets/bg.png
-  slide = false
-  repeat_texture = false
-  parallax = false
-  parallax_intensity_x = 0.02
-  parallax_intensity_y = 0.02
-  invert_parallax = false
-  restart_animated_on_menu_load = false
-}
 
 menu_background {
   instance_identifier = 07223765-f6b1-4e0a-afdc-4459870f9efe-1778327890339

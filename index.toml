@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "06b953cfe1150dd46d52c043d199b967d2e5e0d13cea8736453284bb17c16aaa"
+hash = "2dc781b19f122a8ef1375f21aab0051f506a8789e3f29feac5828b05cb4e3cc1"
 
 [[files]]
 file = "all-of-create-data.pw.toml"
@@ -876,10 +876,6 @@ file = "config/fabric/indigo-renderer.properties"
 hash = "e1abebd9b7ca905c434ccca366fbb2a6dccf5ffcdfbba21bc0145667a37be359"
 
 [[files]]
-file = "config/fancymenu/assets/bg.png"
-hash = "46f4460e57bdf43ab8e23156c1ed488ab9e95bbd672e890977820b09a2811b98"
-
-[[files]]
 file = "config/fancymenu/assets/bgcp.png"
 hash = "b0a25db4048d1f55dd5f2dcf3bc08e5534ade0e175b5bb6527c778d3c385bd12"
 
@@ -961,7 +957,7 @@ hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
 
 [[files]]
 file = "config/fancymenu/customization/all_of_create.txt"
-hash = "7940f59b45e2bffea3db84facc8faa0407467a7cbc44c545af69e29d74da3459"
+hash = "2c0f028b59e8ee6c466834262cadb9f3fd6c7ec414038aa5ce02a0a0f531a3c5"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
@@ -978,6 +974,34 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 [[files]]
 file = "config/fancymenu/options.txt"
 hash = "52a157d88d05152ef5ea8b3346ad70a7a924c0f3f4744e4587acab60ce9baece"
+
+[[files]]
+file = "config/fancymenu/panoramas/zenith/panorama/panorama_0.png"
+hash = "c957171ad7752ad956f0bdfb1acb0be1e6d76ae9399f9b55f1b0ea98cbf61116"
+
+[[files]]
+file = "config/fancymenu/panoramas/zenith/panorama/panorama_1.png"
+hash = "ce8eae5b27b593a70aa6a5d2fb59272f3013c4d177090163957d442faa4d248b"
+
+[[files]]
+file = "config/fancymenu/panoramas/zenith/panorama/panorama_2.png"
+hash = "0ed111a4c2ff7f462b3ab52593df8816ad4f85883b8eac4ca3b7e6c0e8da0814"
+
+[[files]]
+file = "config/fancymenu/panoramas/zenith/panorama/panorama_3.png"
+hash = "4ef6324f68006f5dfd4c326fd122b9f7b1b0c3578a8472b461a9d750ecc3f184"
+
+[[files]]
+file = "config/fancymenu/panoramas/zenith/panorama/panorama_4.png"
+hash = "ef4744b52f86ad86e8f7ac262333e382f84e534e93db9ac975de3f077bc50110"
+
+[[files]]
+file = "config/fancymenu/panoramas/zenith/panorama/panorama_5.png"
+hash = "a588a319372d4a55c7a15e18c435195bac5a49a69fc0f448fc87979de6832e38"
+
+[[files]]
+file = "config/fancymenu/panoramas/zenith/properties.txt"
+hash = "965a95acaff0608b580ca19ea0fa79bc0d0d4eec5e649c8ac18511504b1801e7"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
