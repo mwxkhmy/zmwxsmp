@@ -1606,7 +1606,11 @@ hash = "91e71670cee4eb6e722ed23840fb5c69e6ab2f5c71232e6db024cd425d39b5e3"
 
 [[files]]
 file = "kubejs/server_scripts/brass_no_blaze.js"
-hash = "22d9d75c035bd731442a7bf7bd909b42a5fcb3709da5756e8fda3ebfa896dd0d"
+hash = "37a9261f38adb046476db2acab96003d8ea3851b245d93f5f7cad922af65a654"
+
+[[files]]
+file = "kubejs/server_scripts/coffee_no_heat.js"
+hash = "5fcc5eb74c13ca446ff8fff4212530be43b96d44e40ae1bb58ea8458c61ea2ec"
 
 [[files]]
 file = "kubejs/server_scripts/stage_seals.js"

@@ -7,18 +7,27 @@
 // без этой правки латунь недостижима, а вместе с ней и латунные корпуса,
 // и Печать Пепла, которой рубеж открывается.
 //
-// Меняем ровно одно: убираем требование нагрева. Ингредиенты и выход
-// прежние — медь + цинк дают 2 слитка.
+// ВАЖНО: рецепт задаём сырым JSON в формате самого Create, один в один как в
+// его файле data/create/recipe/mixing/brass_ingot.json, только без строки
+// heat_requirement. Хелпер event.recipes.create.mixing(...) здесь не годится:
+// Create 6 ждёт ингредиенты как sized_ingredient, хелпер отдаёт свой формат,
+// и рецепт получается с пустыми слотами (в JEI видно два пустых квадрата).
 // ═══════════════════════════════════════════════════════════════════════════
 
 ServerEvents.recipes(event => {
 
     event.remove({ id: 'create:mixing/brass_ingot' });
 
-    event.recipes.create.mixing(Item.of('create:brass_ingot', 2), [
-        '#c:ingots/copper',
-        '#c:ingots/zinc'
-    ]);
+    event.custom({
+        type: 'create:mixing',
+        ingredients: [
+            { tag: 'c:ingots/copper' },
+            { tag: 'c:ingots/zinc' }
+        ],
+        results: [
+            { count: 2, id: 'create:brass_ingot' }
+        ]
+    }).id('mwxkhmycore:mixing/brass_ingot_no_heat');
 
     console.info('[ZSMP] Латунь: нагрев больше не нужен');
 });
