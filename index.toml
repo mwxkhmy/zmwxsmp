@@ -1606,7 +1606,7 @@ hash = "91e71670cee4eb6e722ed23840fb5c69e6ab2f5c71232e6db024cd425d39b5e3"
 
 [[files]]
 file = "kubejs/server_scripts/stage_seals.js"
-hash = "a953a57a9177863931d784548699aa08cb7c3767ab6aaefd0f1aa5493e2b896e"
+hash = "59a632814485bba7c20d77a052e996770f16ee84074b07141b941dc4793f49b6"
 
 [[files]]
 file = "mods/ae2-jei-integration.pw.toml"
@@ -2444,8 +2444,8 @@ hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
 metafile = true
 
 [[files]]
-file = "mods/mwxkhmycore-2.8.0.jar"
-hash = "a47f2aca4f2c9319e6e9e3777eaf0d9e657105c24abc544905e25b43245638d6"
+file = "mods/mwxkhmycore-2.8.1.jar"
+hash = "4625d8e50f85cf0d5dea4d791e169eed89830571ee36522971de8980c453dabd"
 
 [[files]]
 file = "mods/neruina.pw.toml"
