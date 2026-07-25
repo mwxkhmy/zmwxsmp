@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "822284873c91369ff19b9a640b222190f4b42b9609299caef0c032c8c8e6b8e9"
+hash = "0b6481e8208537976fa9cf493517dc003c082039e1b1b78b5e1eb91ceea84cf4"
 
 [[files]]
 file = "all-of-create-data.pw.toml"
@@ -961,7 +961,7 @@ hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
 
 [[files]]
 file = "config/fancymenu/customization/all_of_create.txt"
-hash = "651e5d3705fe4c9b1c00fdd017c5ae4ce70f9bbfb555da8f9e7cb90fb604cec0"
+hash = "89a0fc7065bc413c970ac157bb5eb7ca345e399a2236d446caf71c7c3faf07e0"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
@@ -2619,6 +2619,11 @@ metafile = true
 [[files]]
 file = "mods/epherolib.pw.toml"
 hash = "bb3972a97a3915f202ce571fc7b943b2055119a0d70404424505e4dbc811958c"
+metafile = true
+
+[[files]]
+file = "mods/etched.pw.toml"
+hash = "82e12d4fe6767264c396cab79de5b7165d022c8ab851765ef4e38d3a3be20232"
 metafile = true
 
 [[files]]
