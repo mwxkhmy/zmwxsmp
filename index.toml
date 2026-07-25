@@ -1605,6 +1605,10 @@ file = "kubejs/server_scripts/ae2_endgame.js"
 hash = "91e71670cee4eb6e722ed23840fb5c69e6ab2f5c71232e6db024cd425d39b5e3"
 
 [[files]]
+file = "kubejs/server_scripts/brass_no_blaze.js"
+hash = "22d9d75c035bd731442a7bf7bd909b42a5fcb3709da5756e8fda3ebfa896dd0d"
+
+[[files]]
 file = "kubejs/server_scripts/stage_seals.js"
 hash = "59a632814485bba7c20d77a052e996770f16ee84074b07141b941dc4793f49b6"
 
