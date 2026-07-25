@@ -2444,8 +2444,8 @@ hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
 metafile = true
 
 [[files]]
-file = "mods/mwxkhmycore-2.8.1.jar"
-hash = "4625d8e50f85cf0d5dea4d791e169eed89830571ee36522971de8980c453dabd"
+file = "mods/mwxkhmycore-2.8.2.jar"
+hash = "61372f4c0fe2675ad9caab057cc0be2c8d1e2170db7471150c620b2f6f165a25"
 
 [[files]]
 file = "mods/neruina.pw.toml"
