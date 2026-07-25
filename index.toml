@@ -948,6 +948,10 @@ file = "config/fancymenu/assets/sh.png"
 hash = "9329ef630331bd3e1e09df6ac4a460264379e96b61ab04fe1c88827c0a54a9f1"
 
 [[files]]
+file = "config/fancymenu/assets/zenith_logo.png"
+hash = "4279bdc763ec188b1531a5f2e2737a68b1ee77e51506fb84fa4fdda988a05c91"
+
+[[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
 hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
@@ -957,7 +961,7 @@ hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
 
 [[files]]
 file = "config/fancymenu/customization/all_of_create.txt"
-hash = "2c0f028b59e8ee6c466834262cadb9f3fd6c7ec414038aa5ce02a0a0f531a3c5"
+hash = "a2b601c543518b3cb6a28535f2565414577b9cafb4321ef9777dfe885faf4c69"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
