@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "2dc781b19f122a8ef1375f21aab0051f506a8789e3f29feac5828b05cb4e3cc1"
+hash = "5e83a238c119ed240b92ae4e0491c2ccee1e64564235f560cf8bec1586b20b0a"
 
 [[files]]
 file = "all-of-create-data.pw.toml"
@@ -2895,8 +2895,8 @@ hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
 metafile = true
 
 [[files]]
-file = "mods/mwxkhmycore-2.6.0.jar"
-hash = "90cc28682ad0c77dbb493335d68d8e00858070a2603428667cb80094a7c61d17"
+file = "mods/mwxkhmycore-2.6.1.jar"
+hash = "3303beea12b34321ece9965c2c782b667aead87b33e16824ea9d254f2c068a2e"
 
 [[files]]
 file = "mods/neruina.pw.toml"
