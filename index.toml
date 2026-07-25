@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "0b6481e8208537976fa9cf493517dc003c082039e1b1b78b5e1eb91ceea84cf4"
+hash = "06b953cfe1150dd46d52c043d199b967d2e5e0d13cea8736453284bb17c16aaa"
 
 [[files]]
 file = "all-of-create-data.pw.toml"
@@ -961,7 +961,7 @@ hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
 
 [[files]]
 file = "config/fancymenu/customization/all_of_create.txt"
-hash = "89a0fc7065bc413c970ac157bb5eb7ca345e399a2236d446caf71c7c3faf07e0"
+hash = "7940f59b45e2bffea3db84facc8faa0407467a7cbc44c545af69e29d74da3459"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
@@ -2117,11 +2117,6 @@ hash = "55fe1f1a0b72abf4b697b3e0d8f5449e590bb519d26a29e6eeac049161003a34"
 metafile = true
 
 [[files]]
-file = "mods/bisecthosting-server-integration-menu-neoforge.pw.toml"
-hash = "e3d12b69f218240aff7e92b97d5d47a08c154259adacd70352f4c05c3ede151d"
-metafile = true
-
-[[files]]
 file = "mods/blueprint.pw.toml"
 hash = "cb564821fb109f3cd53c9e82d3604685d5a9414098c293bc95618e6776315dce"
 metafile = true
@@ -3013,11 +3008,6 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "d318efaa5190d251642c7a6de7f327a35d32a587bc72ec2c180603e72563c9e7"
-metafile = true
-
-[[files]]
-file = "mods/server-browser.pw.toml"
-hash = "f3fe195be6fb2aa19f523acd07e4c48941bc9d46b41713148071dcb959b5a7b2"
 metafile = true
 
 [[files]]
