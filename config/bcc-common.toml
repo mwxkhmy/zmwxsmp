@@ -5,9 +5,9 @@
 	# Range: > 0
 	modpackProjectID = 26773
 	#The name of the modpack
-	modpackName = "All of Create Aeronautics"
+	modpackName = "ZenithSMP"
 	#The version of the modpack
-	modpackVersion = "v2.1"
+	modpackVersion = "v2.0"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false

@@ -113,7 +113,7 @@ hash = "9923b77b07293c6ae5363fde993daa3597423ded51756528d2830c01a5f716ea"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "5f542da4a66455886c08d4e5a75c403474b46513c3cdc6e5f553bbf90c65e78d"
+hash = "179e3fde69ac25824772ba52821ad2eb04428646886e7a9791289f28fd320e66"
 
 [[files]]
 file = "config/biomemusic.json"
@@ -572,10 +572,6 @@ file = "config/fancymenu/assets/bgcp.png"
 hash = "b0a25db4048d1f55dd5f2dcf3bc08e5534ade0e175b5bb6527c778d3c385bd12"
 
 [[files]]
-file = "config/fancymenu/assets/discord.png"
-hash = "b54d6b16720647fa248a480897a51b0c307d9c9d47a75f36960d4ce4900a55d1"
-
-[[files]]
 file = "config/fancymenu/assets/icon16x16.png"
 hash = "e121b8829830b19e327ecbd9b6c2ccd73d7f6a982b6c8383d41989b7561be796"
 
@@ -612,10 +608,6 @@ file = "config/fancymenu/assets/oh.png"
 hash = "bece77e93387c2e5cbcfa0af4399d1d36a29059bedad2f6adad9afc15c4c5765"
 
 [[files]]
-file = "config/fancymenu/assets/patreonlarge.png"
-hash = "835fd5083fde8529d338bfc3902ca07589fe6322f08b72ed00eba1adddd3a3ee"
-
-[[files]]
 file = "config/fancymenu/assets/q.png"
 hash = "eb7f9e284983973dd37941ad0b55b99cfbe6e51114a389c4fd306b1fb79722a5"
 
@@ -641,7 +633,7 @@ hash = "9329ef630331bd3e1e09df6ac4a460264379e96b61ab04fe1c88827c0a54a9f1"
 
 [[files]]
 file = "config/fancymenu/assets/zenith_logo.png"
-hash = "4279bdc763ec188b1531a5f2e2737a68b1ee77e51506fb84fa4fdda988a05c91"
+hash = "6287e3bc8a971d5da19692dfdb55edf5dc2ab180e86642544f6b364692c3fc88"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -1613,6 +1605,11 @@ file = "kubejs/server_scripts/ae2_endgame.js"
 hash = "91e71670cee4eb6e722ed23840fb5c69e6ab2f5c71232e6db024cd425d39b5e3"
 
 [[files]]
+file = "mods/ae2-jei-integration.pw.toml"
+hash = "491974dc6adba0e893fb755f55dfe833a1076ba49fdf9e4f92b8b9fa069ce9b5"
+metafile = true
+
+[[files]]
 file = "mods/ae2.pw.toml"
 hash = "ed45c352a49b65c7221e57d979d0c6935522dfef4968aa5b7421f4d3e670ce40"
 metafile = true
@@ -2443,8 +2440,8 @@ hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
 metafile = true
 
 [[files]]
-file = "mods/mwxkhmycore-2.7.0.jar"
-hash = "59c9ed4a0b5608ed5668751c5917ffbab44a83355a2aeab496cdf1122d8e7593"
+file = "mods/mwxkhmycore-2.7.1.jar"
+hash = "defc5d1e6dcb4f268c1dab2e7a8bd0869137d56ee91fefc42ad4713a1bd5c9aa"
 
 [[files]]
 file = "mods/neruina.pw.toml"
