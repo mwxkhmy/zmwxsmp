@@ -1605,6 +1605,10 @@ file = "kubejs/server_scripts/ae2_endgame.js"
 hash = "91e71670cee4eb6e722ed23840fb5c69e6ab2f5c71232e6db024cd425d39b5e3"
 
 [[files]]
+file = "kubejs/server_scripts/stage_seals.js"
+hash = "a953a57a9177863931d784548699aa08cb7c3767ab6aaefd0f1aa5493e2b896e"
+
+[[files]]
 file = "mods/ae2-jei-integration.pw.toml"
 hash = "491974dc6adba0e893fb755f55dfe833a1076ba49fdf9e4f92b8b9fa069ce9b5"
 metafile = true
@@ -2440,8 +2444,8 @@ hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
 metafile = true
 
 [[files]]
-file = "mods/mwxkhmycore-2.7.1.jar"
-hash = "defc5d1e6dcb4f268c1dab2e7a8bd0869137d56ee91fefc42ad4713a1bd5c9aa"
+file = "mods/mwxkhmycore-2.8.0.jar"
+hash = "a47f2aca4f2c9319e6e9e3777eaf0d9e657105c24abc544905e25b43245638d6"
 
 [[files]]
 file = "mods/neruina.pw.toml"
