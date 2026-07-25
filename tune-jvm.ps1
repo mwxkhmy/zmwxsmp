@@ -69,7 +69,8 @@ if ($ZGC) {
         '-XX:G1MixedGCCountTarget=3', '-XX:G1HeapWastePercent=20',
         '-XX:InitiatingHeapOccupancyPercent=10', '-XX:G1RSetUpdatingPauseTimePercent=0',
         '-XX:G1SATBBufferEnqueueingThresholdPercent=30', '-XX:G1ConcMarkStepDurationMillis=5.0',
-        '-XX:G1ConcRSHotCardLimit=16', '-XX:G1ConcRefinementServiceIntervalMillis=150',
+        # G1ConcRSHotCardLimit и G1ConcRefinementServiceIntervalMillis выброшены:
+        # их убрали из JDK 20/21, на Java 21 они дают предупреждения при каждом запуске
         '-XX:+PerfDisableSharedMem', '-XX:+UseStringDeduplication'
     )
     $gcName = 'G1 (клиентский тюнинг)'
@@ -148,3 +149,9 @@ Copy-Item $cfg "$cfg.bak" -Force
 [System.IO.File]::WriteAllLines($cfg, $out, [System.Text.UTF8Encoding]::new($false))
 Write-Host ''
 Write-Host 'Готово! Настройки записаны (бэкап: instance.cfg.bak). Запускай лаунчер.' -ForegroundColor Green
+Write-Host ''
+Write-Host 'ВАЖНО: в настройках инстанса, вкладка Java, проверь два пункта —' -ForegroundColor Yellow
+Write-Host '  * галка "Use Mojang optimized defaults" должна быть СНЯТА;' -ForegroundColor Yellow
+Write-Host '  * "Garbage collector preset" должен стоять на None.' -ForegroundColor Yellow
+Write-Host 'Иначе лаунчер добавит СВОЙ сборщик мусора поверх этих аргументов, и игра' -ForegroundColor Yellow
+Write-Host 'не запустится с ошибкой "Multiple garbage collectors selected".' -ForegroundColor Yellow

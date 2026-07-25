@@ -2444,8 +2444,8 @@ hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
 metafile = true
 
 [[files]]
-file = "mods/mwxkhmycore-2.8.2.jar"
-hash = "61372f4c0fe2675ad9caab057cc0be2c8d1e2170db7471150c620b2f6f165a25"
+file = "mods/mwxkhmycore-2.8.3.jar"
+hash = "444b70e6f292f617a742e2faa04f13b17956768bf516d91294486e74726c0b00"
 
 [[files]]
 file = "mods/neruina.pw.toml"
@@ -2605,6 +2605,11 @@ metafile = true
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
 hash = "d2849a029418dd88ed2e82d2a91eedafc39d1eee74b8a0dfad01418abb149069"
+metafile = true
+
+[[files]]
+file = "mods/skinrestorer.pw.toml"
+hash = "4bc3fe241b34b44d358b416c7e14dd2fd7eb0c0295735cabfba1fcfa55bca725"
 metafile = true
 
 [[files]]
@@ -8000,4 +8005,4 @@ hash = "a9f8e5c8cb44baebfffb09821e05dbb43bb13ba76d6591af686cb940ab9c034d"
 
 [[files]]
 file = "tune-jvm.ps1"
-hash = "eb908d9f63f94cb93647ffee7cb6a2eddb64dc5bc0c95059f88bf0f11902f584"
+hash = "84ec743ec26c35235cfb165be19e14bb4afa7866802e1a26488d9adb3b7a10a4"
