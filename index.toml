@@ -1184,6 +1184,10 @@ file = "config/paxi/datapacks/create waystones 1.21.zip"
 hash = "2548666b0932bdbdee0a1b13b4cd662574f15e37a8073d9d304ef0d23efbd8f6"
 
 [[files]]
+file = "config/paxi/datapacks/dynamiclights-v1.9.3-mc1.17-26.2.9-datapack.zip"
+hash = "1663ab3e65215df06320977775ff58d9b4ef5036614e5859d6fdcf07cb4d5158"
+
+[[files]]
 file = "config/paxi/datapacks/no_dnd_diamond_1.21.zip"
 hash = "826e0b0338434bf635270f86f3fd385ad92e4374ca0f4f04e5fd3f24b3614bb4"
 
