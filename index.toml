@@ -1613,6 +1613,10 @@ file = "kubejs/server_scripts/coffee_no_heat.js"
 hash = "5fcc5eb74c13ca446ff8fff4212530be43b96d44e40ae1bb58ea8458c61ea2ec"
 
 [[files]]
+file = "kubejs/server_scripts/diorite_milling.js"
+hash = "51708b9b6fc4d659d0ae5f50ae2d009c804a9a8a14645e3a73c5000dbf64425a"
+
+[[files]]
 file = "kubejs/server_scripts/stage_seals.js"
 hash = "59a632814485bba7c20d77a052e996770f16ee84074b07141b941dc4793f49b6"
 
