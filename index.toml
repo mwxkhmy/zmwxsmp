@@ -2185,6 +2185,11 @@ hash = "efce6a511bf4a60c64fe082fd183c9cd693861fb79413ba540cb1053ff562191"
 metafile = true
 
 [[files]]
+file = "mods/easy-mob-spawn-control.pw.toml"
+hash = "71d3b4412e9b1d33d6a39df62d9435abe106c383f514f12659594918e282f081"
+metafile = true
+
+[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "65b3488ff2104f458ab5fa16a7a274157f5d012d7013a9c24437ae9ca6c11d55"
 metafile = true
