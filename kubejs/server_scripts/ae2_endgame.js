@@ -61,19 +61,25 @@ ServerEvents.recipes(event => {
         press('minecraft:diamond')
     ]).transitionalItem('minecraft:diamond').loops(3);
 
-    // Процессоры: 2 круга линии; каждый ярус ест компоненты Create
+    // Процессоры: 2 круга линии; каждый ярус ест компоненты Create.
+    //
+    // ВАЖНО: у всех пяти линий на печатном кремнии ПЕРВЫЙ шаг должен быть разным.
+    // Create привязывает заготовку к рецепту по первому нанесённому предмету, и
+    // если начинать все линии с редстоуна, выбирается один рецепт на всех —
+    // игрок нанёс редстоун и уже собирает инженерный процессор, другие
+    // недоступны. Поэтому первым идёт уникальный компонент яруса, редстоун вторым.
     event.remove({ output: 'ae2:logic_processor' });
     SA(['ae2:logic_processor'], 'ae2:printed_silicon', [
-        deploy('ae2:printed_silicon', 'minecraft:redstone'),
         deploy('ae2:printed_silicon', 'create:brass_sheet'),
+        deploy('ae2:printed_silicon', 'minecraft:redstone'),
         deploy('ae2:printed_silicon', 'ae2:printed_logic_processor'),
         press('ae2:printed_silicon')
     ]).transitionalItem('ae2:printed_silicon').loops(2);
 
     event.remove({ output: 'ae2:calculation_processor' });
     SA(['ae2:calculation_processor'], 'ae2:printed_silicon', [
-        deploy('ae2:printed_silicon', 'minecraft:redstone'),
         deploy('ae2:printed_silicon', 'create:electron_tube'),
+        deploy('ae2:printed_silicon', 'minecraft:redstone'),
         deploy('ae2:printed_silicon', 'ae2:printed_calculation_processor'),
         press('ae2:printed_silicon')
     ]).transitionalItem('ae2:printed_silicon').loops(2);
@@ -81,9 +87,9 @@ ServerEvents.recipes(event => {
     // Инженерный: точный механизм + электронная лампа на КАЖДЫЙ круг (х2)
     event.remove({ output: 'ae2:engineering_processor' });
     SA(['ae2:engineering_processor'], 'ae2:printed_silicon', [
-        deploy('ae2:printed_silicon', 'minecraft:redstone'),
         deploy('ae2:printed_silicon', 'create:precision_mechanism'),
         deploy('ae2:printed_silicon', 'create:electron_tube'),
+        deploy('ae2:printed_silicon', 'minecraft:redstone'),
         deploy('ae2:printed_silicon', 'ae2:printed_engineering_processor'),
         press('ae2:printed_silicon')
     ]).transitionalItem('ae2:printed_silicon').loops(2);
@@ -296,14 +302,14 @@ ServerEvents.recipes(event => {
     event.recipes.create.pressing('appliedcreate:advanced_stress_circuit_board', 'create:brass_sheet');
 
     SA(['appliedcreate:stress_processor'], 'ae2:printed_silicon', [
-        deploy('ae2:printed_silicon', 'create:cinder_flour'),
         deploy('ae2:printed_silicon', 'appliedcreate:stress_circuit_board'),
+        deploy('ae2:printed_silicon', 'create:cinder_flour'),
         press('ae2:printed_silicon')
     ]).transitionalItem('ae2:printed_silicon').loops(1);
 
     SA(['appliedcreate:advanced_stress_processor'], 'ae2:printed_silicon', [
-        deploy('ae2:printed_silicon', 'create:cinder_flour'),
         deploy('ae2:printed_silicon', 'appliedcreate:advanced_stress_circuit_board'),
+        deploy('ae2:printed_silicon', 'create:cinder_flour'),
         press('ae2:printed_silicon')
     ]).transitionalItem('ae2:printed_silicon').loops(1);
 

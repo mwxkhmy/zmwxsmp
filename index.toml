@@ -1606,7 +1606,7 @@ hash = "eda6b48fa86544ced552499eeb3d1deb917978d8ebe0f599c1a3ca31f363d66e"
 
 [[files]]
 file = "kubejs/server_scripts/ae2_endgame.js"
-hash = "91e71670cee4eb6e722ed23840fb5c69e6ab2f5c71232e6db024cd425d39b5e3"
+hash = "639861cb25179b6291549b5c89a7d6a7c3046b3667d6432e1c0533973357f79e"
 
 [[files]]
 file = "kubejs/server_scripts/brass_no_blaze.js"
